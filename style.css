@@ -1,0 +1,268 @@
+body{
+    color:white;
+    margin:0;
+    padding: 0px;
+    overflow-x: hidden;
+    font-size: 14px;
+        background-color: hsl(216, 53%, 9%);
+
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    float:right;
+}
+.nav-logo img{
+    float: left;
+    width:100px;
+}
+.menubar{
+        padding: 1% 5%;
+
+    margin-top: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    
+}
+
+.navitem{
+    margin-right:30px;
+    
+}
+/*intro*/
+.intro{
+    padding-top: 60px;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+.intro-text{
+    padding:0% 20%;
+}
+ p{
+    color:darkgray;
+    padding: 10px 0px;
+}
+
+.intro .btn{
+    width:200px;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%)) !important;
+    transition: 1s ease;
+
+}
+.intro .btn:hover{
+
+     background-image: linear-gradient(to right, hsl(198, 60%, 50%), hsl(176, 68%, 64%) ) !important;
+    
+}
+/*BACKGROUND-IMAGE*/
+.bg-img{
+
+    background-image: url(images/bg-curvy-desktop.svg);
+    height:70vh;
+    margin-top:20px;
+        background-size: cover;
+        background-position: center center;
+}
+/*services*/
+.services{
+    margin-top: 0px;
+    text-align: center;
+    background-color:hsl(218, 28%, 13%)
+
+    
+}
+.services .row{
+    width:50%;
+    display: inline-flex;
+    padding:0% 9%;
+
+
+}
+.services .col-6-md{
+    padding-top: 10%;
+}
+.services h5{
+    margin-top:20px;
+}
+
+
+/*productive*/
+.product{
+        background-color:hsl(218, 28%, 13%)
+
+}
+.product .row{
+    padding:1% 7%;
+    padding-top:90px;
+    display: flex;
+    justify-content: space-around;
+}
+.pro-text{
+    margin-left: 50px;
+    margin-top: 50px;
+    width:40%;
+    
+}
+.product span{
+padding-bottom: 4px;
+    border-bottom: 1px solid aquamarine;    color:aquamarine;
+}
+/*TESTIMONIAL*/
+.quote-bg{
+    padding-top: 70px;
+    margin-left: 60px;
+    height:10vh;
+}
+.testimonial{
+    height:80vh;
+            background-color:hsl(218, 28%, 13%);
+    position: relative;
+
+    
+}
+.testimonial .row{
+    padding:3% 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.tes{
+    padding: 1%;
+    width:30%;
+    background-color: hsl(219, 30%, 18%);
+    
+
+}
+.tes img{
+    border-radius: 50%;
+    height:45px;
+    margin-right: 15px;
+    
+}
+.tes:hover{
+    box-shadow: 1px 1px 20px;
+}
+.mobile{
+    display: none;
+}
+/*LOGIN*/
+.login{
+    top:540px;
+    left:25%;
+    text-align: center;
+    padding: 3% 5%;
+     margin: 0 auto;
+    width: 50%;
+    box-shadow: 3px 3px 15px black;
+    display: block;
+    background-color: hsl(219, 30%, 18%);
+}
+
+.login input{
+    padding:2%;
+    width:300px;
+    margin-right: 10px;
+}
+.login .btn{
+    padding:1.9% 1%!important;
+}
+
+/*last*/
+.last{
+    margin-top: 200px;
+        padding-left:10%;
+
+}
+.loc{
+    margin-right: 15px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    margin-top: 40px;
+    padding-left: 38%;
+}
+.social p:hover{
+    color: white;
+}
+.serv{
+    transition: 1s ease;
+}
+@media (max-width:980px){
+    body{
+        overflow-x: hidden;
+
+    }
+    .intro{
+        margin-top: 50px;
+        
+        text-align: center;
+    }
+    .intro-text{
+        padding:0% 5%;
+    }
+    .intro img{
+        width:400px;
+    }
+    .intro img,h1,p{
+        padding-top:20px;
+    }
+    
+   .services .row{
+       width:100% !important;
+      }
+    .bg-img{
+        width:auto;
+    }
+    .product img{
+        padding:0% 7%;
+    }
+    .product .row{
+        padding-top: 50px;
+    }
+    .pro-text{
+        width:70%;
+    }
+    .testimonial{
+        padding-top:40px;
+    }
+    .testimonial .row{
+        padding:0% 9%;
+    }
+    .tes{
+        padding:4%;
+        margin-top:30px;
+        width: auto;
+    }
+    .login
+    {
+        margin-left: 5%;
+        margin-top:50px;
+        width:auto;
+        height: auto;
+    }
+    .last{
+    margin-top: 700px;
+        padding-left:10%;
+
+}
+    
+    .footer{
+        padding-left: 50px;
+    }
+    .mobile{
+         display: inline-block;
+        width: 100%;
+        text-align: right;
+        font-family: arial;
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        cursor: pointer;  
+    }
+    .nav-ul{
+        display: none;
+    }
+}
